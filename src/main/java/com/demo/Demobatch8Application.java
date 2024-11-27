@@ -12,7 +12,10 @@ public class Demobatch8Application {
 	public String getMessage() {
 		return "welcome to C++ session ";
 	}
-
+	@GetMapping("/msg1")
+	public String getMessage1() {
+		return "welcome to java session ";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(Demobatch8Application.class, args);
 	}
